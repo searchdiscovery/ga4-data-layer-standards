@@ -44,7 +44,7 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |facets|delimited string|contextual|A double-delimited string of key/value pairs representing the refinements that were applied to this search. Only set if the list type is a search result or filter_by_group.|category:skin_health~skin_concern:acne~featured_as:best_seller|
 |index|integer|required|The numerical index of the item position (1-indexed). For instance, if this is the 5th search result, you would send 5 here. If this is the 3rd card in a single row, send 3. If this is the 2nd item in the 3rd row of a 3-up card layout, send 8 (3 + 3 + 2).|5|
-|items|array of [items](/schemas/item.md)|required|Populate with only the item that was selected. This should always be a single item array.|`[{item_id: "1234567890", item_name: "Blue Widget"}]`
+|items|array of [items](/schemas/item.md)|required|Populate with only the item that was selected. This should always be a single item array.|`[{item_id: "sandwich1", item_name="CFA Chicken Sandwich"}]`
 |list_type|string|contextual|The type of list the item was found in.|cards, carousel, popular_products, search_results|
 |search_term|string|contextual|The final search term submitted after any correction has been performed. Only set if the `list_type` is `search_results`.|blue widgets|
 |search_type|string|contextual|The type of search performed. Only set if the `list_type` is `search_results`.|site,product,article|
