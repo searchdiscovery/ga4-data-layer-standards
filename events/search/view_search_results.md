@@ -23,8 +23,8 @@ dataLayer.push({
 
 |Field|Type|Required|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|facets|delimited string|recommended|A delimited string of key/value pairs representing the facets that were applied to this search|need:skin health\~skin_concern:acne\~featured_as:best_seller|
+|facets|delimited string|recommended|A delimited string of key/value pairs representing the facets that were applied to this search|category:breakfast\~section:beverages|
 |number_of_items|integer|recommended|The total number of search results found|324|
-|search_term|string|required|The final search term submitted after any correction has been performed|blue widgets|
-|search_term_corrected|string|recommended|The initial search term before typeahead/lookahead/suggestion, if the site has those features.|blue w|
+|search_term|string|required|The final search term submitted after any correction has been performed|eat more chicken|
+|search_term_corrected|string|recommended|The initial search term before typeahead/lookahead/suggestion, if the site has those features.|eat mor chikin|
 |search_type|string|required|The type of search performed|site,product,article|
