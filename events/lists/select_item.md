@@ -47,7 +47,7 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |facets|delimited string|contextual|A double-delimited string of key/value pairs representing the refinements that were applied to this search. Only set if the list type is a search result or filter_by_group.|category:generic products~color:blue~featured_as:best_seller|
 |index|integer|required|The numerical index of the item position (1-indexed). For instance, if this is the 5th search result, you would send 5 here. If this is the 3rd card in a single row, send 3. If this is the 2nd item in the 3rd row of a 3-up card layout, send 8 (3 + 3 + 2).|5|
-|items|array of [items](/schemas/item.md)|required|Populate with only the item that was selected. This should always be a single item array.|`[{item_id: "1234567890", item_name: "Blue Widget"}]`
+|items|array of [items](/schemas/item.md)|required|Populate with only the item that was selected. This should always be a single item array.|`[{item_id: "sandwich1", item_name="CFA Chicken Sandwich"}]`
 |item_list_id|string|recommended|The computer-readable machine name of the list the item showed up in. Use UUID provided by the component if no more specific ID is available.|12345abcde12345|
 |item_list_name|string|recommended|The human-readable name of the list the item showed up in. If one is not available, populate with numerical index of which list this is on the page (1-indexed).|recommended_products, recently_viewed_products|
 |list_type|string|contextual|The type of list the item was found in.|cards, search_results|
