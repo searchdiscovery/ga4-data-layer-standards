@@ -49,5 +49,5 @@ dataLayer.push({
 |index|integer|required|The numerical index of the item position (1-indexed). For instance, if this is the 5th search result, you would send 5 here. If this is the 3rd card in a single row, send 3. If this is the 2nd item in the 3rd row of a 3-up card layout, send 8 (3 + 3 + 2).|5|
 |list_type|string|contextual|The type of list the item was found in.|cards, search_results|
 |name|string|required|The form human-readable name. This should be something that an analyst without a deep knowledge of the technical implementation of the site can easily identify the form with. It should be lowercase snake_case.|Blog Post 1|
-|search_term|string|contextual|The final search term submitted after any correction has been performed. Only set if the `list_type` is `search_results`.|blue widgets|
+|search_term|string|contextual|The final search term submitted after any correction has been performed. Only set if the `list_type` is `search_results`.|chicken sandwich|
 |search_type|string|contextual|The type of search performed. Only set if the `list_type` is `search_results`.|site,product,article|
