@@ -49,5 +49,5 @@ dataLayer.push({
 |item_list_id|string|recommended|The computer-readable machine name of the list the item showed up in. Use UUID provided by the component if no more specific ID is available.|12345abcde12345|
 |item_list_name|string|recommended|The human-readable name of the list the item showed up in. If one is not available, populate with numerical index of which list this is on the page (1-indexed).|recommended_products, recently_viewed_products|
 |list_type|string|contextual|The type of list the item was found in.|cards, search_results|
-|search_term|string|contextual|The final search term submitted after any correction has been performed. Only set if the `list_type` is `search_results`.|blue widgets|
+|search_term|string|contextual|The final search term submitted after any correction has been performed. Only set if the `list_type` is `search_results`.|chicken sandwich|
 |search_type|string|contextual|The type of search performed. Only set if the `list_type` is `search_results`.|site,product,article|
