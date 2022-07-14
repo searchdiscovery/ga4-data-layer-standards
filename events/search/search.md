@@ -21,6 +21,6 @@ dataLayer.push({
 
 |Field|Type|Required|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|search_term|string|required|The final search term submitted after any correction has been performed|blue widgets|
-|search_term_corrected|string|recommended|The initial search term before typeahead/lookahead/suggestion, if the site has those features.|blue w|
+|search_term|string|required|The final search term submitted after any correction has been performed|eat more chicken|
+|search_term_corrected|string|recommended|The initial search term before typeahead/lookahead/suggestion, if the site has those features.|eat mor chikin|
 |search_type|string|required|The type of search performed|site,product,article|
